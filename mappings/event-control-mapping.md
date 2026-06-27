@@ -19,13 +19,13 @@ Each event maps to:
 
 | # | Event Type | Sigma Rule (planned) | SOC 2 TSC | ISO 27001 Control | Evidence Template |
 |---|------------|---------------------|-----------|-------------------|-------------------|
-| 1 | Failed authentication — 5+ attempts in 10 min | failed_auth_brute_force.yml | CC6.1 — Logical access controls | A.8.3 — Information access restriction | auth_failure_evidence.md |
-| 2 | Privileged account login outside business hours | privileged_login_offhours.yml | CC6.3 — Role-based access | A.8.2 — Privileged access rights | privileged_login_evidence.md |
-| 3 | IAM policy change / privilege escalation | iam_policy_change.yml | CC6.3 — Role-based access | A.8.2 — Privileged access rights | iam_change_evidence.md |
-| 4 | Large data transfer / potential exfiltration | data_exfil_signal.yml | CC6.7 — Data transmission controls | A.8.12 — Data leakage prevention | exfil_signal_evidence.md |
-| 5 | S3 bucket policy made public | s3_public_exposure.yml | CC6.7 — Data transmission controls | A.8.10 — Information deletion | s3_exposure_evidence.md |
-| 6 | CloudTrail logging disabled or modified | cloudtrail_tamper.yml | CC7.2 — System monitoring | A.8.15 — Logging | cloudtrail_tamper_evidence.md |
-| 7 | New admin user created outside change window | admin_user_created.yml | CC6.2 — New user provisioning | A.5.18 — Access rights | admin_creation_evidence.md |
+| 1 | Failed authentication - 5+ attempts in 10 min | failed_auth_brute_force.yml | CC6.1 - Logical access controls | A.8.3 - Information access restriction | auth_failure_evidence.md |
+| 2 | Privileged account login outside business hours | privileged_login_offhours.yml | CC6.3 - Role-based access | A.8.2 - Privileged access rights | privileged_login_evidence.md |
+| 3 | IAM policy change / privilege escalation | iam_policy_change.yml | CC6.3 - Role-based access | A.8.2 - Privileged access rights | iam_change_evidence.md |
+| 4 | Large data transfer / potential exfiltration | data_exfil_signal.yml | CC6.7 - Data transmission controls | A.8.12 - Data leakage prevention | exfil_signal_evidence.md |
+| 5 | S3 bucket policy made public | s3_public_exposure.yml | CC6.7 - Data transmission controls | A.8.10 - Information deletion | s3_exposure_evidence.md |
+| 6 | CloudTrail logging disabled or modified | cloudtrail_tamper.yml | CC7.2 - System monitoring | A.8.15 - Logging | cloudtrail_tamper_evidence.md |
+| 7 | New admin user created outside change window | admin_user_created.yml | CC6.2 - New user provisioning | A.5.18 - Access rights | admin_creation_evidence.md |
 
 ---
 
