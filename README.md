@@ -13,15 +13,7 @@ SaaS company (NimbusLedger) running Splunk Cloud.
 ---
 
 ## How it works
-Security Event (in SIEM)
-↓
-Sigma Detection Rule (.yml)
-↓
-Event-to-Control Mapping
-↓
-SOC 2 TSC + ISO 27001 Control
-↓
-Audit Evidence Template (.md)
+Security Event (in SIEM) -> Sigma Detection Rule (.yml) -> Event-to-Control Mapping -> SOC 2 TSC + ISO 27001 Control -> Audit Evidence Template (.md)
 
 ---
 
